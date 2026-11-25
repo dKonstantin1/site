@@ -1626,5 +1626,256 @@
       resizeVideoCanvas();
     });
   </script>
+  <!-- ==================== СЕКЦИЯ: ОБ АВТОРЕ И СПЕЦИАЛЬНОСТИ ==================== -->
+<section id="about-author" class="student-section">
+  <div class="student-container">
+    <div class="section-header">
+      <span class="section-index">04 / О проекте и авторе</span>
+      <h2>Информация об авторе и учебной программе</h2>
+    </div>
+
+    <!-- Карточка автора и учебного заведения -->
+    <div class="author-grid">
+      <div class="info-card">
+        <div class="card-top">
+          <!-- Слот под логотип вашего сайта (пока скрыт/заглушка по вашему запросу) -->
+          <!-- <img src="site-logo.png" alt="Логотип сайта" class="site-logo"> -->
+          <div>
+            <p class="label">Разработчик проекта</p>
+            <h3 class="author-name">Дорохин Константин Владимирович</h3>
+          </div>
+        </div>
+
+        <div class="edu-block">
+          <!-- Логотип ВАГПК (векторная эмблема + ссылка на сайт колледжа) -->
+          <a href="https://gosuslugi.ru" target="_blank" rel="noopener" class="college-logo-link" title="Перейти на официальный сайт ВАГПК">
+            <!-- Если скачаете растровый логотип с сайта vagpk11.gosuslugi.ru, замените SVG ниже на <img src="vagpk-logo.png" alt="Логотип ВАГПК"> -->
+            <svg class="college-logo-svg" viewBox="0 0 80 80" width="64" height="64" xmlns="http://w3.org">
+              <defs>
+                <linearGradient id="vagpkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#0ea5e9"/>
+                  <stop offset="100%" stop-color="#1d4ed8"/>
+                </linearGradient>
+              </defs>
+              <rect width="80" height="80" rx="16" fill="url(#vagpkGrad)"/>
+              <polygon points="40,12 64,28 56,62 24,62 16,28" fill="none" stroke="#ffffff" stroke-width="2.5" opacity="0.85"/>
+              <text x="40" y="45" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-weight="800" font-size="16" letter-spacing="1">ВАГПК</text>
+              <text x="40" y="57" text-anchor="middle" fill="#bae6fd" font-family="sans-serif" font-weight="600" font-size="7">ВОРКУТА</text>
+            </svg>
+          </a>
+
+          <div class="edu-details">
+            <p class="label">Учебное заведение</p>
+            <p class="college-title">
+              ГПОУ «Воркутинский Арктический Горно-Политехнический Колледж» (ВАГПК)
+            </p>
+            <p class="label" style="margin-top: 10px;">Специальность</p>
+            <p class="specialty-title">
+              09.02.07 «Информационные системы и программирование»
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Карточка индивидуальной 3D-модели и её назначения -->
+      <div class="info-card">
+        <p class="label">Индивидуальная 3D-модель изделия</p>
+        <h3>3D-модель: «Торпеда» (Torpeda_Enhanced)</h3>
+
+        <!-- Место под скриншот/рендер 3D-модели с обязательной подписью -->
+        <figure class="model-figure">
+          <div class="photo-placeholder">
+            <span>Здесь будет фото/рендер 3D-модели «Торпеда»</span>
+          </div>
+          <figcaption>
+            <strong>Подпись:</strong> Индивидуальная 3D-модель подводного самодвижущегося аппарата «Торпеда» (выполнено в Blender 5.2.2 LTS).
+          </figcaption>
+        </figure>
+
+        <div class="purpose-box">
+          <h4>Назначение разработанной 3D-модели изделия:</h4>
+          <p>
+            Модель представляет собой самодвижущийся, самоуправляемый подводный боеприпас сигарообразной формы. 
+            В реальной военно-морской технике изделие применяется с подводных лодок, надводных кораблей и морской авиации 
+            для поражения надводных кораблей, субмарин и гидротехнических сооружений ниже ватерлинии. 
+            Данная 3D-модель предназначена для наглядной визуализации компоновки корпуса (силового цилиндра, крестообразных стабилизаторов, 
+            соосных гребных винтов противоположного вращения и подвесного рым-бугеля) и интерактивной демонстрации в веб-среде.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Перечень изучаемых предметов по специальности 09.02.07 -->
+    <div class="info-card subjects-card">
+      <p class="label">Образовательная программа 09.02.07</p>
+      <h3>Перечень изучаемых предметов по специальности</h3>
+      <ul class="subjects-list">
+        <li><strong>ОП.01</strong> Операционные системы и среды</li>
+        <li><strong>ОП.02</strong> Архитектура аппаратных средств</li>
+        <li><strong>ОП.03</strong> Информационные технологии</li>
+        <li><strong>ОП.04</strong> Основы алгоритмизации и программирования</li>
+        <li><strong>ОП.05</strong> Правовое обеспечение профессиональной деятельности</li>
+        <li><strong>ОП.06</strong> Безопасность жизнедеятельности</li>
+        <li><strong>ОП.07</strong> Экономика отрасли</li>
+        <li><strong>ОП.08</strong> Основы проектирования баз данных</li>
+        <li><strong>ОП.09</strong> Стандартизация, сертификация и техническое документирование</li>
+        <li><strong>ЕН.01 / ЕН.03</strong> Дискретная математика, теория вероятностей и мат. статистика</li>
+        <li><strong>ПМ.01</strong> Разработка модулей программного обеспечения для компьютерных систем</li>
+        <li><strong>ПМ.02</strong> Осуществление интеграции программных модулей</li>
+        <li><strong>ПМ.03</strong> Ревьюирование и тестирование программных продуктов</li>
+        <li><strong>ПМ.04</strong> Сопровождение и обслуживание программного обеспечения</li>
+        <li><strong>ПМ.05 / ПМ.08</strong> Проектирование, разработка и администрирование баз данных и веб-приложений</li>
+        <li><strong>Компьютерная графика и 3D-моделирование</strong> (создание и визуализация трёхмерных объектов)</li>
+      </ul>
+    </div>
+
+    <!-- Блок-заготовка под фотографии специальности (добавите позже) -->
+    <!--
+    <div class="info-card gallery-placeholder">
+      <h3>Фотографии специальности</h3>
+      <div class="photo-grid">
+        <img src="spec-1.jpg" alt="Программирование">
+        <img src="spec-2.jpg" alt="Работа с базами данных">
+      </div>
+    </div>
+    -->
+  </div>
+</section>
+
+<style>
+  .student-section {
+    padding: 60px 20px;
+    background: #0b0f19;
+    color: #e2e8f0;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  .student-container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  .section-header {
+    margin-bottom: 32px;
+  }
+  .section-index {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #38bdf8;
+    margin-bottom: 6px;
+  }
+  .section-header h2 {
+    margin: 0;
+    font-size: 28px;
+    color: #ffffff;
+  }
+  .author-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+  .info-card {
+    background: #111827;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    padding: 24px;
+  }
+  .info-card h3 {
+    margin: 4px 0 16px;
+    font-size: 20px;
+    color: #f8fafc;
+  }
+  .label {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #94a3b8;
+    margin: 0 0 4px;
+  }
+  .author-name {
+    font-size: 22px !important;
+    color: #38bdf8 !important;
+  }
+  .edu-block {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  .college-logo-link {
+    flex-shrink: 0;
+    transition: transform 0.2s ease;
+  }
+  .college-logo-link:hover {
+    transform: scale(1.05);
+  }
+  .college-title {
+    margin: 0;
+    font-weight: 600;
+    color: #f1f5f9;
+    line-height: 1.4;
+  }
+  .specialty-title {
+    margin: 0;
+    font-weight: 600;
+    color: #38bdf8;
+  }
+  .model-figure {
+    margin: 0 0 16px;
+  }
+  .photo-placeholder {
+    height: 160px;
+    border: 1px dashed rgba(56, 189, 248, 0.4);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(15, 23, 42, 0.6);
+    color: #94a3b8;
+    font-size: 14px;
+    text-align: center;
+    padding: 12px;
+  }
+  .model-figure figcaption {
+    margin-top: 8px;
+    font-size: 13px;
+    color: #cbd5e1;
+  }
+  .purpose-box h4 {
+    margin: 0 0 8px;
+    font-size: 15px;
+    color: #f8fafc;
+  }
+  .purpose-box p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #cbd5e1;
+  }
+  .subjects-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px 20px;
+  }
+  .subjects-list li {
+    font-size: 14px;
+    color: #cbd5e1;
+    padding: 8px 12px;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 8px;
+    border-left: 3px solid #38bdf8;
+  }
+  .subjects-list li strong {
+    color: #ffffff;
+  }
+</style>
 </body>
 </html>
