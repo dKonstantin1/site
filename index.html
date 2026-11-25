@@ -1649,19 +1649,7 @@
         <div class="edu-block">
           <!-- Логотип ВАГПК (векторная эмблема + ссылка на сайт колледжа) -->
           <a href="https://gosuslugi.ru" target="_blank" rel="noopener" class="college-logo-link" title="Перейти на официальный сайт ВАГПК">
-            <!-- Если скачаете растровый логотип с сайта vagpk11.gosuslugi.ru, замените SVG ниже на <img src="vagpk-logo.png" alt="Логотип ВАГПК"> -->
-            <svg class="college-logo-svg" viewBox="0 0 80 80" width="64" height="64" xmlns="http://w3.org">
-              <defs>
-                <linearGradient id="vagpkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stop-color="#0ea5e9"/>
-                  <stop offset="100%" stop-color="#1d4ed8"/>
-                </linearGradient>
-              </defs>
-              <rect width="80" height="80" rx="16" fill="url(#vagpkGrad)"/>
-              <polygon points="40,12 64,28 56,62 24,62 16,28" fill="none" stroke="#ffffff" stroke-width="2.5" opacity="0.85"/>
-              <text x="40" y="45" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-weight="800" font-size="16" letter-spacing="1">ВАГПК</text>
-              <text x="40" y="57" text-anchor="middle" fill="#bae6fd" font-family="sans-serif" font-weight="600" font-size="7">ВОРКУТА</text>
-            </svg>
+            <img src="vagpk.png" alt="Логотип ГПОУ ВАГПК" class="college-logo-img"
           </a>
 
           <div class="edu-details">
@@ -1877,6 +1865,13 @@
     padding: 12px 16px;
     font-size: 13px;
     color: #cbd5e1;
+  }
+    .college-logo-img {
+    width: 72px;
+    height: 72px;
+    object-fit: contain;
+    display: block;
+    border-radius: 50%;
   }
 </style>
   <!-- Фотографии специальности -->
